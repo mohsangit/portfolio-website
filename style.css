@@ -1,0 +1,103 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #0f0f1a;
+  color: #fff;
+}
+
+/* ===== Header ===== */
+header {
+  text-align: center;
+  padding: 30px 20px;
+  background-color: #161625;
+  color: #a855f7;
+}
+
+.profile-photo {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  border: 3px solid #a855f7;
+  object-fit: cover;
+  object-position: center top; /* Ensures your face is centered */
+  margin-bottom: 15px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto; /* Centers the photo */
+}
+
+
+/* ===== Navbar ===== */
+nav {
+  background-color: #1e1e2f;
+  text-align: center;
+  padding: 10px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #a855f7;
+}
+
+/* ===== Sections ===== */
+section {
+  padding: 40px 10%;
+  max-width: 900px;
+  margin: auto;
+  opacity: 0;
+  transform: translateY(50px);
+  transition: all 0.8s ease;
+}
+
+h2 {
+  color: #a855f7;
+  border-bottom: 2px solid #a855f7;
+  padding-bottom: 5px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* ===== Cards ===== */
+.card {
+  background-color: #181827;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  box-shadow: 0 0 10px rgba(168, 85, 247, 0.2);
+}
+
+.skills span {
+  display: inline-block;
+  background: #2e2e42;
+  padding: 8px 12px;
+  margin: 5px;
+  border-radius: 20px;
+  font-size: 0.9rem;
+}
+
+ul {
+  list-style: square;
+  margin-left: 20px;
+}
+
+footer {
+  background-color: #161625;
+  text-align: center;
+  color: #aaa;
+  padding: 15px;
+}
+
+.contact a {
+  color: #a855f7;
+  text-decoration: none;
+}
+
+.contact a:hover {
+  text-decoration: underline;
+}
